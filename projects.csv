@@ -1,0 +1,125 @@
+year,project,student,mentors
+2014,animint,Carson Sievert,"Toby Dylan Hocking, Susan VanderPlas"
+2014,pbdPROF: Profiling Tools for High Performance Computing with R,Christian Heckendorf,"Wei-Chen Chen, Drew"
+2014,Generalized Linear Mixed Models via Monte Carlo Likelihood Approximation,Christina Knudson,"Charles J. Geyer, Galin Jones"
+2014,Kernel Density Estimation and Nonparametric Discriminant Analysis for FD,dapr12,"Virgilio Gómez-Rubio, Peter Foster"
+2014,Improving the R-interactive-Graphics-via-HTml (RIGHT) Package,Jong Hyun Bae,Junghoon
+2014,rOptManifold: An R Package for Optimization over Matrix Manifolds,Kejun He,"Jianhua, Yihui Xie"
+2014,Tools for composite index analysis,Keshav Pratap,Valentin
+2014,PhyloVS: phylogeny-constrained regularization and variable selection,lichenbiostat86,Jun Chen
+2014,Spot volatility estimation: Methods and applications,Maarten Schermer,"Jonathan Cornelissen, kris.boudt, Daniele Signori"
+2014,Tools for pre and post processing of data for Ecological niche models,Narayani Barve,"RobGur, Jorge Soberon"
+2014,Extending mzR,Qiang Kou,"Steffen Neumann, cbeleites, Laurent"
+2014,Turning R objects into Pandoc's markdown,Roman Tsegelskyi,Gergely Daróczi
+2014,PortfolioAnalytics_Ross_Bennett,Ross Bennett,"Doug Martin, Brian G. Peterson, Peter Carl"
+2014,Proposal_FactorAnalytics_Sangeetha_Srinivasan,Sangeetha Srinivasan,"Eric Zivot, Doug Martin, Guy Yollin, Peter Carl"
+2014,bdvis: Biodiversity data visualizations,Vijay Barve,"Virgilio Gómez-Rubio, Jorge Soberon"
+2014,Dimension Reduction Methods for Multivariate Time Series,wbnicholson,"jbien, David S. Matteson"
+2014,GenPCA: A Generalized PCA Toolkit for High-dimensional Data Analysis in R,Xingguo,tourzhao
+2013,R Interactive Graphics via HTml,Chung Ha SUNG,"Jae W. Lee, Junghoon Lee"
+2013,Implement/Port Spectral Unmixing Methods to R,Conor McManus,"Claudia Beleites, Simon Fuller"
+2013,Improving rapport and pander packages,Dániel Nagy,"Gergely Daróczi, Aleksandar Blagotić"
+2013,"Improvements to data construction, subsetting, and manipulation for time series data",EvilTosha,"Michael Weylandt, Joshua Ulrich, Peter Carl, Brian G. Peterson, Paul Teetor"
+2013,Profiling Tools for Parallel Computing with R,Gaurav Sehrawat,"ostrouchovg, Drew, Wei-Chen Chen"
+2013,Highfrequency: add inferential methods to highfrequency,giangnguyen,"Kris Boudt, Jonathancornelissen, Brian G. Peterson, Daniele Signori"
+2013,Addressing IID Assumptions in Finance: Autocorrelation and Drawdowns in Performance Analysis,pulkit,"Paul Teetor, Peter Carl, Doug Martin, Brian G. Peterson, Daniele Signori"
+2013,robgpu,Roland Boubela,Andreas
+2013,PortfolioAnalytics,Ross Bennett,"Paul Teetor, Peter Carl, Guy Yollin, Brian G. Peterson, Doug Martin"
+2013,Addressing IID Assumptions in Finance: Autocorrelation and Drawdowns in Performance Analysis,Shubhankit Mohan,"Paul Teetor, Peter Carl, Doug Martin, Brian G. Peterson, Daniele Signori"
+2013,Improve display of imported vector graphics in R,Simon Potter,"Toby Dylan Hocking, Paul Murrell"
+2013,Improve rendering of animated/interactive ggplots in d3 using animint,Susan VanderPlas,Toby Dylan Hocking
+2013,Handle parallel (vectorized) objective functions in a new optimization wrapper package,thirdwing,"Y. Richet, Joshua Ulrich"
+2013,CAMEL: Calibrated Machine Learning,Tour,Han Liu
+2013,Biodiversity data visualization in R,vijaybarve,"Javier Otegui, Virgilio Gómez-Rubio"
+2013,Collection of functionality ported from the MATLAB code of Attilio Meucci,Xavi,"David Ardia, Brian G. Peterson, Peter Carl"
+2013,A package extension for Exponential Random Graph Model with block structure,Xiaolin Yang,"Michael Rosenblum, Han Liu"
+2013,Linear factor model for asset returns,Yi-An Chen,"Brian G. Peterson, Peter Carl, Eric Zivot, Doug Martin"
+2012,Bayesian Spatial Econometrics with R,Abhirup Mallik,Virgilio Gómez-Rubio
+2012,Portfolio Performance Measurement and Benchmarking,Andrii Babii,Doug Martin
+2012,BigMatrix: Super Scalable Predictive Analytics for Big Matrices in R,Fang,Rafa
+2012,Add additional closed form and global optimizer backends to PortfolioAnalytics,Hezky Varon,Guy Yollin
+2012,xtend RTAQ for additional high frequency time series analysis,Jonathancornelissen,Kris Boudt
+2012,Develop an R package interfacing the computer algebra system Maxima,Kseniia Shumelchyk,Hans W Borchers
+2012,Inclusion of Attilio Meucci's implementations in ReturnAnalytics,Manan Shah,Brian G. Peterson
+2012,Additional performance measures and attribution functionality to PerformanceAnalytics,Matthieu,Peter Carl
+2012,Improvements to xts time series visualization and subsetting,Michael Weylandt,Joshua Ulrich
+2012,HyperSpec: Parallelization and Optimization,Simon Fuller,Claudia Beleites
+2012,Dynamic report generation in the web with R,Taiyun Wei,Yihui Xie
+2012,Aggregate CRAN package download statistics across multiple mirrors,Tim Jurka,hadley
+2012,Interactive dendrogram,Tomas Sieger,cbhurley
+2012,SAM: A General-purpose Classifier for Modern Predictive Data Analysis,Tour,Roeder
+2012,Access and visualization of biodiversity data in R,vijaybarve,Scott Chamberlain
+2012,"Biganalysis: A robust, general-purpose R package for large scale classification",Xiaolin Yang,Han Liu
+2011,optile Category order optimization for graphical displays of categorical data,Alexander Pilhöfer,Rosuda93
+2011,Manipulating RStudio Graphics Towards Creating Intuitive Mathematical Comprehension,Andrew Rich,"Daniel Kaplan, JJ Allaire"
+2011,R-EM-Accelerator---Smarter Iterative Schemes Save Your Time,Hui Zhao,"Roger Peng, Ravi Varadhan"
+2011,Convergence acceleration of the Expectation-Maximization (EM) algorithms in computational statistics: A suite of cutting-edge acceleration schemes,Jennifer,Ravi Varadhan
+2011,SMART: Sparse Multivariate Adaptive Regression Toolkit,Juemin,Han Liu
+2011,Exploratory visualization of dynamic stochastic processes,Kåre Jacobsen,Niels Richard Hansen
+2011,OpenMP parallel framework for R,Lei Jiang,"f.jamitzky, prag, ostrouchovg"
+2011,DClusterm: Model-based detection of disease clusters,Paula Moraga,"Barry Rowlingson, Virgilio Gómez-Rubio"
+2011,Developing a hyperSpec GUI,Sebastian Mellor,"Colin Gillespie, Claudia Beleites"
+2011,Image Analysis in R,Sunil Kumar,Ian Fellows
+2011,HUGE: High-dimensional Undirected Graph Estimation,Tour,"Roeder, Han Liu"
+2011,Cranvastime: Interactive longitudinal and temporal data plots,Xiaoyue Cheng,"Di Cook, Heike Hofmann"
+2011,Proposal for Components in TradeAnalytics Toolchain enhancements,Y.Chen,Brian G. Peterson
+2011,A GUI based package to assist optimization problems in R,yixuan,nashjc
+2010,rdx - Automatic Differentiation in R,Chidambaram Annamalai,nashjc
+2010,Social Relations Analyses in R,Felix Schönbrodt,schmukle
+2010,A GUI for Graphics Using ggplot2 and Deducer,Ian Fellows,hadley
+2010,rgeos - an R wrapper for GEOS,rundel,Roger Bivand
+2009,Development of crantastic.org,Bjørn Arild Mæland,hadley
+2009,Implementation of the GUIDE algorithm,ESH,Torsten Hothorn
+2009,RQuantLib - Bridging R and QuantLib,Khanh Nguyen,Dirk Eddelbuettel
+2009,"""You can't control what you can't measure""",mariane,Manuel Eugster
+2008,Finite Mixture Models for Large Data Sets,Arijit Das,Friedrich Leisch
+2008,Roxygen documentation system for R,Peter Danenberg,Manuel J. A. Eugster
+2008,"lme4: Adaptive Gauss-Hermite quadrature method
+for mixed-effects models",Bin Dai,Douglas M. Bates
+2008,Connecting R and PostgreSQL using DBI,Sameer Kumar Prayaga,Dirk Eddelbuettel
+2015,Test timings on Travis,Akash Tandon,"TD Hocking, hadley"
+2015,Convert Dowd's Code,Dinesh,"Brian Peterson, Peter Carl"
+2015,Subsetted and parallel computations in matrixStats ,Dongcan Jiang,"Henrik Bengtsson, Héctor Corrada Bravo"
+2015,Cov Matrix Estimation for MCMC,Dootika Vats,"John Hughes, Charlie Geyer"
+2015,Predict methods for spatial econometrics,Framartin (Martin Gubri),"Roger Bivand, Giovanni Millo"
+2015,Stochastic Average Gradient,Ishmael Belghazi,"John Nash, TD Hocking"
+2015,GEO-analysis-with-Shiny,Jasmine Dumas,"Garrett Dancik, Yuanbin Ru"
+2015,Multivariate Survival analysis,Vinnie Monaco,"Malka Gorfine, Li Hsu"
+2015,Improving mlr’s hyperparameter and tuning system for efficient model selection,Kerschke,"Bernd Bischl, Michel Lang"
+2015,Animint,Kevin Ferris,"C Sievert, S VanderPlas, TD Hocking"
+2015,nlmeviz,Nafiz Hamid,"Eun-kyung Lee, Di Cook"
+2015,statistical algorithms in NIMBLE,Nick Michaud,"Perry de Valpine, Chris Paciorek, Duncan Temple Lang"
+2015,covariance matrix estimators,Rohit Arora,Doug Martin
+2015,pander,Roman Tsegelskyi,Gergely Daroczi
+2015,factorAnalytics package,Sangeetha Srinivasan,Eric Zivot
+2015,markovchain,Tae Seung Kang,"Spedicato, Giorgio A, Christophe Dutang"
+2015,Implement several ensemble SVMs in mlr,Tong He,"Aydin Demircioglu, Bernd Bischl"
+2015,Animint,Jun Cai (Tony Tsai),"C Sievert, S VanderPlas, TD Hocking"
+2015,Biodiversity SNS,Vijay Barve,"Javier Otegui, Robert Guralnick, Jorge Soberón"
+2015,wrds package,Wouter,Guy Yollin
+2015,Risk + Asset Allocation,Xavier Valls,"Peter Carl, Brian Peterson"
+2015,SDCA,Xingguo,"Daniel Vainsencher, tourzhao"
+2015,Cpp Version of ARPACK and Integration with (Rcpp)Armadillo,Yixuan Qiu,"Dirk Eddelbuettel, Ryan Curtin, Drew Schmidt (backup)"
+2015,Improving mlr’s visualisations,Zachary Jones,"Lars Kotthoff, Julia Schiffner, Bernd Bischl (if needed and other projects not selected) "
+2016,postCP change-point detection,Malith Jayaweera,"G Nuel, G Rigaill"
+2016,Biconvex minimization,xingguo,tourzhao@gmail.com
+2016,Animint,Faizan Khan,"TD Hocking, C Sievert"
+2016,Discovr,Robin Kohze,R Brock and S Schmidt
+2016,GAS,Leopoldo Catania,"K Boudt, D Ardia"
+2016,ggduo,Barret Schloerke,"Di Cook, H Hofmann, R Hafen "
+2016,Hyperspectral Unmixing,AaBelov,"Claudia Beleites, S Fuller, B Hanson "
+2016,Deep learning with mxnet,Yuqi Li,"Q Kou, Y Tang"
+2016,markovchain,Deepak Yadav,"G Spedicato, C Dutang, SB Yalamanchi"
+2016,Text/Topic Modeling,Jan Idziak,"M Eder, T Melcer"
+2016,factorAnalytics,Avinash Acharya,D Martin
+2016,PostGIS,Balázs Dukai,"M Basille, D Bucklin, C Calenge"
+2016,GARCH,Keven Bluteau,"D Ardia, K Boudt"
+2016,ggmosaic,Haley Jeppson,"H Hofmann, Di Cook "
+2016,NicheToolbox,Luis Osorio,"V Barve, N Barve, J Soberon"
+2016,plot.xts,ChuuHsiang Hung,"B Peterson, R Bennett, P Teetor, J Ulrich, P Carl"
+2016,re2 regular expressions,Qin Wenfeng,"M Gagolewski, TD Hocking"
+2016,Regularized interval regression,Anuj Khare,"TD Hocking, J Goeman"
+2016,Rperform,Akash Tandon,"TD Hocking, Joshua Ulrich "
+2016,Standard errors for risk,Xin Chen,"D Martin, P Carl, B Peterson "
+2016,Hyperparameter viz,Mason Gallo,"B Bischl, L Kotthoff"
+2016,Boundary detection,,M Li and V Barve 
