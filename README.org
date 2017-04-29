@@ -1,0 +1,8 @@
+** TODOs
+
+slides for QC pres
+
+** 28 Apr 2017
+
+- copied and cleaned data from wikis to [[file:projects.csv]]
+- [[file:figure-projects.R]] analyzes project/student/mentor data.
