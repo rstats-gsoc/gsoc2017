@@ -28,8 +28,11 @@ cameback <- mentors[students, on=list(mentor=student), nomatch=0L]
   project.mentored=substr(project, 1, 15))][order(
     years, student.project, person, year, project.mentored)]))
 
+projects[, list(count=.N), by=year][order(year)]
+
 gg <- ggplot()+
   geom_bar(aes(factor(year)), data=projects)
-png("figure-projects.png")
+png("figure-projects.png", 5, 3, units="in", res=200)
 print(gg)
 dev.off()
+

@@ -1,0 +1,196 @@
+% -*- compile-command: "make HOCKING-RGSOC.pdf" -*-
+\documentclass{beamer}
+\usepackage{tikz}
+\usepackage[all]{xy}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{algorithmic}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\Lik}{Lik}
+\DeclareMathOperator*{\PoissonLoss}{PoissonLoss}
+\DeclareMathOperator*{\Peaks}{Peaks}
+\DeclareMathOperator*{\Segments}{Segments}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\maximize}{maximize}
+\DeclareMathOperator*{\minimize}{minimize}
+\newcommand{\sign}{\operatorname{sign}}
+\newcommand{\RR}{\mathbb R}
+\newcommand{\ZZ}{\mathbb Z}
+\newcommand{\NN}{\mathbb N}
+
+% Set transparency of non-highlighted sections in the table of
+% contents slide.
+\setbeamertemplate{section in toc shaded}[default][100]
+\AtBeginSection[]
+{
+  \setbeamercolor{section in toc}{fg=red} 
+  \setbeamercolor{section in toc shaded}{fg=black} 
+  \begin{frame}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\begin{document}
+
+\title{R project in Google Summer of code (R-GSOC)}
+
+\author{
+  Toby Dylan Hocking\\
+  toby.hocking@r-project.org\\
+\url{https://github.com/rstats-gsoc/gsoc2017/wiki}}
+
+\date{26 May 2017}
+
+\maketitle
+
+\begin{frame}
+  \frametitle{Google Summer of Code (GSOC)}
+  Student gets paid for writing free/open-source code for 3 months.
+  \begin{description}
+  \item[Jan] \textbf{Admins} for organizations e.g. R,
+    LibreOffice, MariaDB, OpenStreetMap etc apply to Google.\\
+    \url{https://summerofcode.withgoogle.com/organizations/}
+  \item[Feb] \textbf{Mentors} propose projects for each org.
+  \item[Mar]\textbf{Students} submit project proposals to Google.
+  \item[Apr] Google gives funding for $n$ students to an org.
+  \item[May] The top $n$ students are selected.
+  \item[June] Students begin coding.
+  \item[July] Midterm evaluation.
+  \item[Aug] Final evaluation.
+  \end{description}
+
+  I have participated since 2012 as an \textbf{admin} and
+  \textbf{mentor} for the R project.
+\end{frame}
+
+%\section{Participate as a mentor}
+
+\begin{frame}
+  \frametitle{Mentors propose 3-month coding projects}
+  Coding projects should:
+  \begin{itemize}
+  \item Result in free/open-source software.
+  \item Be 3 months of full time work for a student.
+  \item Include writing documentation and tests.
+  \item Not include original research.
+  \end{itemize}
+  R GSOC projects typically involve package development: 
+  \begin{itemize}
+  \item Porting/interfacing code from some other language, e.g. re2r
+    package interfaces RE2 C++ library, Qin Wenfeng 2016.
+  \item Coding an algorithm from a research paper, e.g. bigoptim
+    package for Stochastic Average Gradient algorithm, Ishmael
+    Belghazi 2015.
+  \item Extending some existing package, e.g. postCP package, Malith
+    Jayaweera 2016.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Mentors write coding project proposals}
+  Each proposal should be posted to our wiki with:
+  \begin{description}
+  \item[Background/related work] What problem do you want to solve,
+    and why aren't existing R packages good enough?
+  \item[Coding plan] Detailed outline of functionality to implement.
+  \item[Expected impact] Will the package be useful for the R
+    community?
+  \item[Mentor bios] contact info and qualifications (package dev and
+    GSOC experience). Two mentors required! (ideally from different institutions)
+  \item[Tests] exercises that students can do to prove they are
+    capable of the coding project. The harder the tests, the easier it
+    will be to choose the right student!
+  \end{description}
+
+\url{https://github.com/rstats-gsoc/gsoc2017/wiki/table-of-proposed-coding-projects}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Mentor obligations}
+  \begin{description}
+  \item[Jan] Read our wiki/FAQs and sign up to the gsoc-r list.\\
+    {\small \url{https://github.com/rstats-gsoc/gsoc2017/wiki}}
+  \item[Feb] Write project proposal on our wiki.
+  \item[Mar] Login to google system to comment on submitted applications.
+  \item[June-Aug] Mentoring students via weekly skype calls.
+  \end{description}
+  Throughout, you must be available and responsive to student
+  questions via email! 
+  \begin{itemize}
+  \item The primary goal of GSOC is to teach the students about
+    free/open-source R package development.
+  \item Advancing your particular project should be considered a
+    secondary concern.
+  \end{itemize}
+\end{frame}
+
+%\section{Participate as a student}
+
+\begin{frame}
+  \frametitle{Student timeline}
+  \begin{description}
+  \item[Jan] Check the wiki for project proposals, start working on project tests.
+  \item[Feb] Submit test solutions to mentors, and tell them why you
+    are interested in the project.
+  \item[Mar] Write an application using our template, and submit it to Google.
+  \item[May] If you are selected, begin ``bonding'' with mentors and
+    preparing for the coding project.
+  \item[Jun] Coding period starts. Commit and push daily. Ask mentors
+    questions via email and weekly skype calls. Expect to work about
+    40 hours per week.
+  \item[July-Aug] Midterm and final evaluations -- should be no
+    problem if you are in touch with mentors.
+  \end{description}
+
+  Students get paid an amount which depends on the country of their
+  university.
+\end{frame}
+
+%\section{Some analysis}
+
+\begin{frame}[fragile]
+  \frametitle{Students who came back as mentors this year}
+  For example, 
+  \begin{itemize}
+  \item Akash Tandon wrote Rperform as a student in 2015-2016, now
+    lead mentor on same project.
+  \item Carson Sievert improved Animint as a student in 2014,
+    now co-mentoring 2015-2017.
+  \item Vijay Barve worked on biodiversity data packages as a student
+    in 2012-2015, now a co-mentor 2016-2017.
+  \item Narayani Barve worked on Ecological Niche Models as a student
+    in 2014, now a co-mentor 2016-2017.
+  \item Qiang Kou extended mzR as a student in 2014, now co-mentoring
+    machine learning projects 2016-2017.
+  \end{itemize}
+% \begin{verbatim}
+%     student.project     years               person year project.mentored
+%  1: A GUI for Graph      2010          Ian Fellows 2011  Image Analysis 
+%  2: CAMEL: Calibrat 2011-2013             tourzhao 2014  GenPCA: A Gener
+%  3: CAMEL: Calibrat 2011-2013             tourzhao 2015             SDCA
+%  4: CAMEL: Calibrat 2011-2013             tourzhao 2016  Biconvex minimi
+%  5: HyperSpec: Para      2012         Simon Fuller 2013  Implement/Port 
+%  6: HyperSpec: Para      2012         Simon Fuller 2016  Hyperspectral U
+%  7: Improvements to      2012     Michael Weylandt 2013  Improvements to
+%  8: xtend RTAQ for       2012 Jonathan Cornelissen 2013  Highfrequency: 
+%  9: xtend RTAQ for       2012 Jonathan Cornelissen 2014  Spot volatility
+% 10: bdvis: Biodiver 2012-2015          Vijay Barve 2016  Boundary detect
+% 11: bdvis: Biodiver 2012-2015          Vijay Barve 2016     NicheToolbox
+% 12: Improve renderi      2013     Susan VanderPlas 2014          animint
+% 13: Improve renderi      2013     Susan VanderPlas 2015          Animint
+% 14:   Extending mzR      2014            Qiang Kou 2016  Deep learning w
+% 15: Tools for pre a      2014       Narayani Barve 2016     NicheToolbox
+% 16:         animint      2014       Carson Sievert 2015          Animint
+% 17:         animint      2014       Carson Sievert 2016          Animint
+% \end{verbatim}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Projects over time}
+  \includegraphics[width=\textwidth]{figure-projects}
+\end{frame}
+
+\end{document}
