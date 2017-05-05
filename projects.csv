@@ -17,7 +17,7 @@ year	project	student	mentors
 2014	Dimension Reduction Methods for Multivariate Time Series	wbnicholson	jbien, David S. Matteson
 2014	GenPCA: A Generalized PCA Toolkit for High-dimensional Data Analysis in R	xingguo	tourzhao
 2013	R Interactive Graphics via HTml	Chung Ha SUNG	Jae W. Lee, Junghoon Lee
-2013	Implement/Port Spectral Unmixing Methods to R	Conor McManus	Claudia Beleites, Simon Fuller
+2013	Implement/Port Spectral Unmixing Methods to R	Conor McManus	Claudia Beleites, Simon Fuller, Bryan Hanson
 2013	Improving rapport and pander packages	Dániel Nagy	Gergely Daróczi, Aleksandar Blagotić
 2013	Improvements to data construction, subsetting, and manipulation for time series data	EvilTosha	Michael Weylandt, Joshua Ulrich, Peter Carl, Brian G. Peterson, Paul Teetor
 2013	Profiling Tools for Parallel Computing with R	Gaurav Sehrawat	ostrouchovg, Drew Schmidt, Wei-Chen Chen
@@ -106,7 +106,7 @@ year	project	student	mentors
 2016	Discovr	Robin Kohze	R Brock, S Schmidt
 2016	GAS	Leopoldo Catania	Kris Boudt, David Ardia
 2016	ggduo	Barret Schloerke	Dianne Cook, Heike Hofmann, R Hafen 
-2016	Hyperspectral Unmixing	AaBelov	Claudia Beleites, Simon Fuller, B Hanson 
+2016	Hyperspectral Unmixing	Anton Belov	Claudia Beleites, Simon Fuller, Bryan Hanson 
 2016	Deep learning with mxnet	Yuqi Li	Qiang Kou, Y Tang
 2016	markovchain	Deepak Yadav	G Spedicato, C Dutang, SB Yalamanchi
 2016	Text/Topic Modeling	Jan Idziak	M Eder, T Melcer
