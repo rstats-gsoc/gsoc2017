@@ -71,11 +71,10 @@ year	project	student	mentors
 2009	Development of crantastic.org	Bjørn Arild Mæland	hadley
 2009	Implementation of the GUIDE algorithm	ESH	Torsten Hothorn
 2009	RQuantLib - Bridging R and QuantLib	Khanh Nguyen	Dirk Eddelbuettel
-2009	"""You can't control what you can't measure"""	mariane	Manuel Eugster
+2009	You cant control what you can't measure	mariane	Manuel Eugster
 2008	Finite Mixture Models for Large Data Sets	Arijit Das	Friedrich Leisch
 2008	Roxygen documentation system for R	Peter Danenberg	Manuel Eugster
-2008	"lme4: Adaptive Gauss-Hermite quadrature method
-for mixed-effects models"	Bin Dai	Douglas M. Bates
+2008	lme4: Adaptive Gauss-Hermite quadrature method for mixed-effects models	Bin Dai	Douglas M. Bates
 2008	Connecting R and PostgreSQL using DBI	Sameer Kumar Prayaga	Dirk Eddelbuettel
 2015	Test timings on Travis	Akash Tandon	Toby Dylan Hocking, hadley
 2015	Convert Dowd's Code	Dinesh	Brian G. Peterson, Peter Carl
