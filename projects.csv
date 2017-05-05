@@ -1,7 +1,7 @@
 year	project	student	mentors
 2014	animint	Carson Sievert	Toby Dylan Hocking, Susan VanderPlas
 2014	pbdPROF: Profiling Tools for High Performance Computing with R	Christian Heckendorf	Wei-Chen Chen, Drew Schmidt
-2014	Generalized Linear Mixed Models via Monte Carlo Likelihood Approximation	Christina Knudson	Charlie. Geyer, Galin Jones
+2014	Generalized Linear Mixed Models via Monte Carlo Likelihood Approximation	Christina Knudson	Charlie Geyer, Galin Jones
 2014	Kernel Density Estimation and Nonparametric Discriminant Analysis for FD	dapr12	Virgilio Gómez-Rubio, Peter Foster
 2014	Improving the R-interactive-Graphics-via-HTml (RIGHT) Package	Jong Hyun Bae	Junghoon
 2014	rOptManifold: An R Package for Optimization over Matrix Manifolds	Kejun He	Jianhua, Yihui Xie
@@ -62,7 +62,7 @@ year	project	student	mentors
 2011	Image Analysis in R	Sunil Kumar	Ian Fellows
 2011	HUGE: High-dimensional Undirected Graph Estimation	tourzhao	Roeder, Han Liu
 2011	Cranvastime: Interactive longitudinal and temporal data plots	Xiaoyue Cheng	Dianne Cook, Heike Hofmann
-2011	Proposal for Components in TradeAnalytics Toolchain enhancements	Y.Chen	Brian G. Peterson
+2011	Proposal for Components in TradeAnalytics Toolchain enhancements	Yi-An Chen	Brian G. Peterson
 2011	A GUI based package to assist optimization problems in R	yixuan	John Nash
 2010	rdx - Automatic Differentiation in R	Chidambaram Annamalai	John Nash
 2010	Social Relations Analyses in R	Felix Schönbrodt	schmukle
