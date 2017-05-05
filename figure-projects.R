@@ -11,8 +11,8 @@ mentors <- projects[, {
     mentor=no.space,
     .SD)
 }, by=list(project.id)]
-
 mentors[, as.data.frame(table(c(mentor, student)))]
+
 data.frame(mentors[, list(projects=.N), by=list(mentor)][order(mentor)])
 
 first.years <- projects[, .SD[which.min(year)], by=list(student)]
@@ -28,10 +28,16 @@ cameback <- mentors[students, on=list(mentor=student), nomatch=0L]
   project.mentored=substr(project, 1, 15))][order(
     years, student.project, person, year, project.mentored)]))
 
-projects[, list(count=.N), by=year][order(year)]
-
 gg <- ggplot()+
   geom_bar(aes(factor(year)), data=projects)
+
+year.counts <- projects[, list(count=.N), by=year][order(year)]
+gg <- ggplot()+
+  geom_point(aes(factor(year), count), data=year.counts)+
+  geom_text(aes(
+    factor(year), count, label=count,
+    vjust=ifelse(count<10, -0.5, 1.5)), data=year.counts)
+
 png("figure-projects.png", 5, 3, units="in", res=200)
 print(gg)
 dev.off()
