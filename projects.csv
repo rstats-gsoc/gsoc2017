@@ -156,4 +156,31 @@ year	project	student	mentors
 2017	advancing factorAnalytics	Chindhanai Uthaisaad	Eric Zivot, Doug Martin, Kjell Konis, Thomas Philips, Brian G. Peterson
 2017	Bayesian Hierarchical Models in Finance	Luis Antonio Damiano	Brian G. Peterson , Michael Weylandt 
 2017	Efficient Second order Optimization Solvers for Sparse Learning in R	Jason Ge	tourzhao and xingguo
-2017	Stochastic variational inference	Zhehui Chen	tourzhao and xingguo
+2017	Stochastic variational inference  Zhehui Chen tourzhao and xingguo
+2018	Full Bayesian Inference for Hidden Markov Models	Luis Damiano	    Brian Peterson, Michael Weylandt
+2018	GEE and QIF for clustered data regression	Yuze Zhou	    Jun Yan, Yixuan Qiu
+2018	rOceans: an R Package for integrating spatial trends in biodiversity, human stressors, and conservation efforts	Ignasi Montero Serra	    Eneko Aspillaga, Narayani Barve, Katie Kaplan,  Vijay Barve
+2018	Firedata - Enabling easy cloud stats through Cloud Firestore	Jiasheng Zhu	    Robin Kohze,  Dr. Samuel Schmidt
+2018	Efficient R tools for geometrical statistics	Apostolos Chalkis	    Zaf, Vissarion Fisikopoulos
+2018	Extending 'rvw' and reintegrating vowpal wabbit	Ivan Pavlov	    James Balamuta,  Dirk Eddelbuettel
+2018	MoMA	Liao Luofeng	    Genevera Allen,  Michael Weylandt
+2018	Diagnostic statistics and visualization for quantile regression	Wenjing Wang	   Kris Boudt, Di Cook
+2018	Animint2 Designer Manual	Vivek Kumar-2	    Toby Hocking,  Faizan Khan
+2018	Fast Sparse Linear Models for Big Data with SAGA	Johan Larsson	    Michael Weylandt,   Toby Hocking
+2018	Max Margin Interval Trees	Parismita Das	    Torsten Hothorn,  Alexandre Drouin
+2018	A Shiny User Interface to RobStatTM	Gregory Brownson	    Matias Salibian Barrera,  Doug Martin
+2018	Bayesian analysis of individualized treatment response curves on EHR time series	Yanbo Xu	    Xingguo, Yanxun Xu
+2018	Fast Symbolic Computation in R with SymEngine	Xin Chen	    Jialin Ma, Isuru Fernando
+2018	Self Organizing Maps	Shubham Garg	    Nathalie Villa-Vialaneix, Madalina Olteanu
+2018	Darwinazing biodiversity data in R	Povilas Gibas	    Vijay Barve, Tomer Gueta, Yohay Carmel
+2018	rTrawl	Dries Cornilly	    Brian Peterson, Kris Boudt, Peter Carl
+2018	Making animint2 ready for CRAN and friendlier for the web	Adrián Blanco	    Toby Hocking,  Faizan Khan
+2018	Performance Analytics Standard Errors	Anthony_AC	    Ruben Zamar,  xchen,  Doug Martin,  Peter Carl,   Brian Peterson
+2018	changepoint.online	Andrew Connell	    Rebecca Killick, David Matteson
+2018	A Major Update for HUGE and SAM	Haoming Jiang	    Xingguo, Tuo Zhao,  Jason Ge
+2018	Automatic Differentiation in R through Julia	Changcheng Li	    J C Nash,  Hans W. Borchers
+2018	bdclean: User friendly biodiversity data cleaning pipeline	Thiloshon Nagarajah	    Vijay Barve, Tomer Gueta, Yohay Carmel
+2018	R Interface to Ideogram.js Library	Tim Yu	    Eric Weitz, Jialin Ma,  Freeman Wang
+2018	Biodiversity Data Utilities	Ashwin Agrawal	Vijay Barve, Tomer Gueta, Yohay Carmel
+2018	Firedata - Implementing Web Functionalities for Shiny and OpenCPU	Paul Spende	    Robin Kohze, Dr. Samuel Schmidt, Bert Jehoul
+2018	Species range maps in R	Marlon E. Cobos	    Narayani Barve, Vijay Barve,  Alberto Jiménez Valverde
